@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and header */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem; /* Larger font size for header */
+    margin-bottom: 0.5rem;
+}
+
+/* Main content container */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Upload section */
+.upload-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+#file-upload {
+    display: none; /* Hide the file input */
+}
+
+button[type="submit"] {
+    background-color: #28a745; /* Bootstrap success color */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker shade of success color on hover */
+}
+
+/* Instructions section */
+.instructions-section {
+    background-color: #fff; /* White background */
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+.instructions-section h2 {
+    font-size: 1.5rem; /* Larger font size for section headings */
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.instructions-section p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem; /* Smaller font size for footer text */
+}
+
+footer a {
+    color: #fff; /* White color for links in footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .instructions-section {
+        padding: 0.5rem;
+    }
+}
+
+
